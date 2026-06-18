@@ -17,7 +17,7 @@ partial class MainForm
 
     private void InitializeComponent()
     {
-        this.Text = "蔚蓝档案 · 抽卡运气分析器";
+        this.Text = "蔚蓝档案 · 抽卡概率分析器";
         this.StartPosition = FormStartPosition.CenterScreen;
         this.ClientSize = new Size(440, 460);
         this.Font = new Font("Microsoft YaHei UI", 9F);
@@ -33,10 +33,9 @@ partial class MainForm
         tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 40));
         tableLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 60));
 
-        // 标题
         lblTitle = new Label
         {
-            Text = "🎰 蔚蓝档案 抽卡运气分析",
+            Text = "🎰 蔚蓝档案 抽卡概率分析",
             Font = new Font("Microsoft YaHei UI", 12F, FontStyle.Bold),
             Dock = DockStyle.Fill,
             TextAlign = ContentAlignment.MiddleCenter
@@ -44,19 +43,16 @@ partial class MainForm
         tableLayout.Controls.Add(lblTitle, 0, 0);
         tableLayout.SetColumnSpan(lblTitle, 2);
 
-        // 抽数
         lblPulls = new Label { Text = "总抽数:", Dock = DockStyle.Right, TextAlign = ContentAlignment.MiddleRight };
         txtPulls = new TextBox { Dock = DockStyle.Left, Width = 130 };
         tableLayout.Controls.Add(lblPulls, 0, 1);
         tableLayout.Controls.Add(txtPulls, 1, 1);
 
-        // 出彩数（3星）
         lblC3 = new Label { Text = "出彩数(3星):", Dock = DockStyle.Right, TextAlign = ContentAlignment.MiddleRight };
         txtC3 = new TextBox { Dock = DockStyle.Left, Width = 130 };
         tableLayout.Controls.Add(lblC3, 0, 2);
         tableLayout.Controls.Add(txtC3, 1, 2);
 
-        // 卡池类型（概率）
         lblPool = new Label { Text = "卡池:", Dock = DockStyle.Right, TextAlign = ContentAlignment.MiddleRight };
         cmbPool = new ComboBox
         {
@@ -68,25 +64,21 @@ partial class MainForm
         {
             "常规池 (3%)",
             "FES庆典池 (6%)",
-            "自定义 0.7%",
-            "自定义 1%",
-            "自定义 2%"
+            "Pick Up池（0.7%）"
         });
-        cmbPool.SelectedIndex = 0; // 默认常规池
+        cmbPool.SelectedIndex = 0; 
         tableLayout.Controls.Add(lblPool, 0, 3);
         tableLayout.Controls.Add(cmbPool, 1, 3);
 
-        // 天井兑换选项
         chkPityExchange = new CheckBox
         {
-            Text = "使用了200抽天井兑换当期UP（扣除一个保底3星）",
+            Text = "使用了井（扣除一个保底3星）",
             Dock = DockStyle.Left,
             AutoSize = true
         };
         tableLayout.Controls.Add(chkPityExchange, 1, 4);
         tableLayout.SetColumnSpan(chkPityExchange, 1);
 
-        // 计算按钮
         btnCalc = new Button
         {
             Text = "🔮 分析运气",
@@ -118,7 +110,7 @@ partial class MainForm
 
         lblZ = new Label { Text = "Z值: --", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
         lblGrade = new Label { Text = "评级: --", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
-        lblPercentile = new Label { Text = "超过: --% 的老师", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
+        lblPercentile = new Label { Text = "超过: --% 的sensei", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
         lblCI = new Label { Text = "95% CI: [-- , --]", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
         lblSignificance = new Label { Text = "显著性: --", Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleLeft };
 
