@@ -13,4 +13,11 @@
     <Content Include="a9c00ae3-3966-4da4-88a7-e5ee444f0c5f.ico" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Update="Language\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

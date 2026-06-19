@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FormTitle" xml:space="preserve">
+    <value>ブルーアーカイブ · ガチャ確率アナライザー</value>
+  </data>
+	<data name="LabelPulls" xml:space="preserve">
+    <value>総引き数:</value>
+  </data>
+	<data name="LabelC3" xml:space="preserve">
+    <value>★3出現数:</value>
+  </data>
+	<data name="LabelPool" xml:space="preserve">
+    <value>ガチャ:</value>
+  </data>
+	<data name="ComboNormal" xml:space="preserve">
+    <value>通常ガチャ (3%)</value>
+  </data>
+	<data name="ComboFES" xml:space="preserve">
+    <value>FESガチャ (6%)</value>
+  </data>
+	<data name="ComboPickup" xml:space="preserve">
+    <value>ピックアップガチャ（0.7%）</value>
+  </data>
+	<data name="CheckPity" xml:space="preserve">
+    <value>天井を使用した（確定★3を1体差し引く）</value>
+  </data>
+	<data name="ButtonCalc" xml:space="preserve">
+    <value>🔮 運気を分析</value>
+  </data>
+	<data name="GroupResult" xml:space="preserve">
+    <value>📊 分析結果</value>
+  </data>
+	<data name="LabelZ" xml:space="preserve">
+    <value>Z値:</value>
+  </data>
+	<data name="LabelGrade" xml:space="preserve">
+    <value>評価:</value>
+  </data>
+	<data name="LabelPercentile" xml:space="preserve">
+    <value>上位:</value>
+  </data>
+	<data name="LabelCI" xml:space="preserve">
+    <value>95% 信頼区間:</value>
+  </data>
+	<data name="LabelSignificance" xml:space="preserve">
+    <value>有意性:</value>
+  </data>
+	<data name="ErrorInvalidPulls" xml:space="preserve">
+    <value>有効な総引き数を入力してください</value>
+  </data>
+	<data name="ErrorInvalidC3" xml:space="preserve">
+    <value>有効な★3出現数を入力してください</value>
+  </data>
+	<data name="ErrorPoolParse" xml:space="preserve">
+    <value>ガチャ確率を解析できませんでした</value>
+  </data>
+	<data name="ErrorPoolSelect" xml:space="preserve">
+    <value>確率が設定されたガチャを選択するか、開発者に連絡してください</value>
+  </data>
+	<data name="ErrorPityWithZero" xml:space="preserve">
+    <value>天井を使用する場合、★3出現数は最低1以上です（天井分を含む）</value>
+  </data>
+	<data name="FormatZ" xml:space="preserve">
+    <value>Z値: {0:F3}</value>
+  </data>
+	<data name="FormatGrade" xml:space="preserve">
+    <value>評価: {0}</value>
+  </data>
+	<data name="FormatPercentile" xml:space="preserve">
+    <value>上位 {0:F1}% の先生</value>
+  </data>
+	<data name="FormatCI" xml:space="preserve">
+    <value>95% CI: [{0:F2}, {1:F2}]</value>
+  </data>
+	<data name="FormatSignificance" xml:space="preserve">
+    <value>有意性: {0}</value>
+  </data>
+</root>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FormTitle" xml:space="preserve">
+    <value>蔚蓝档案 · 抽卡概率分析器</value>
+  </data>
+	<data name="LabelPulls" xml:space="preserve">
+    <value>总抽数:</value>
+  </data>
+	<data name="LabelC3" xml:space="preserve">
+    <value>出彩数 (3星):</value>
+  </data>
+	<data name="LabelPool" xml:space="preserve">
+    <value>卡池:</value>
+  </data>
+	<data name="ComboNormal" xml:space="preserve">
+    <value>常规池 (3%)</value>
+  </data>
+	<data name="ComboFES" xml:space="preserve">
+    <value>FES庆典池 (6%)</value>
+  </data>
+	<data name="ComboPickup" xml:space="preserve">
+    <value>Pick Up池（0.7%）</value>
+  </data>
+	<data name="CheckPity" xml:space="preserve">
+    <value>使用了井（扣除一个保底3星）</value>
+  </data>
+	<data name="ButtonCalc" xml:space="preserve">
+    <value>🔮 分析运气</value>
+  </data>
+	<data name="GroupResult" xml:space="preserve">
+    <value>📊 分析结果</value>
+  </data>
+	<data name="LabelZ" xml:space="preserve">
+    <value>Z值:</value>
+  </data>
+	<data name="LabelGrade" xml:space="preserve">
+    <value>评级:</value>
+  </data>
+	<data name="LabelPercentile" xml:space="preserve">
+    <value>超过:</value>
+  </data>
+	<data name="LabelCI" xml:space="preserve">
+    <value>95% 区间:</value>
+  </data>
+	<data name="LabelSignificance" xml:space="preserve">
+    <value>显著性:</value>
+  </data>
+	<data name="ErrorInvalidPulls" xml:space="preserve">
+    <value>请输入有效的总抽数</value>
+  </data>
+	<data name="ErrorInvalidC3" xml:space="preserve">
+    <value>请输入有效的出彩数</value>
+  </data>
+	<data name="ErrorPoolParse" xml:space="preserve">
+    <value>无法解析卡池概率</value>
+  </data>
+	<data name="ErrorPoolSelect" xml:space="preserve">
+    <value>请选择一个带概率的卡池或联系开发者</value>
+  </data>
+	<data name="ErrorPityWithZero" xml:space="preserve">
+    <value>如果井了，出彩数至少为1（含井）</value>
+  </data>
+	<data name="FormatZ" xml:space="preserve">
+    <value>Z值: {0:F3}</value>
+  </data>
+	<data name="FormatGrade" xml:space="preserve">
+    <value>评级: {0}</value>
+  </data>
+	<data name="FormatPercentile" xml:space="preserve">
+    <value>超过: {0:F1}% 的sensei</value>
+  </data>
+	<data name="FormatCI" xml:space="preserve">
+    <value>95% 区间: [{0:F2}, {1:F2}]</value>
+  </data>
+	<data name="FormatSignificance" xml:space="preserve">
+    <value>显著性: {0}</value>
+  </data>
+</root>

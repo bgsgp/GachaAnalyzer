@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FormTitle" xml:space="preserve">
+    <value>블루 아카이브 · 가차 확률 분석기</value>
+  </data>
+	<data name="LabelPulls" xml:space="preserve">
+    <value>총 뽑기 수:</value>
+  </data>
+	<data name="LabelC3" xml:space="preserve">
+    <value>★3 등장 수:</value>
+  </data>
+	<data name="LabelPool" xml:space="preserve">
+    <value>가차:</value>
+  </data>
+	<data name="ComboNormal" xml:space="preserve">
+    <value>일반 가차 (3%)</value>
+  </data>
+	<data name="ComboFES" xml:space="preserve">
+    <value>FES 가차 (6%)</value>
+  </data>
+	<data name="ComboPickup" xml:space="preserve">
+    <value>픽업 가차（0.7%）</value>
+  </data>
+	<data name="CheckPity" xml:space="preserve">
+    <value>천장 사용 (확정 ★3 1회 차감)</value>
+  </data>
+	<data name="ButtonCalc" xml:space="preserve">
+    <value>🔮 운 분석</value>
+  </data>
+	<data name="GroupResult" xml:space="preserve">
+    <value>📊 분석 결과</value>
+  </data>
+	<data name="LabelZ" xml:space="preserve">
+    <value>Z 값:</value>
+  </data>
+	<data name="LabelGrade" xml:space="preserve">
+    <value>등급:</value>
+  </data>
+	<data name="LabelPercentile" xml:space="preserve">
+    <value>상위:</value>
+  </data>
+	<data name="LabelCI" xml:space="preserve">
+    <value>95% 신뢰 구간:</value>
+  </data>
+	<data name="LabelSignificance" xml:space="preserve">
+    <value>유의성:</value>
+  </data>
+	<data name="ErrorInvalidPulls" xml:space="preserve">
+    <value>유효한 총 뽑기 수를 입력하세요</value>
+  </data>
+	<data name="ErrorInvalidC3" xml:space="preserve">
+    <value>유효한 ★3 등장 수를 입력하세요</value>
+  </data>
+	<data name="ErrorPoolParse" xml:space="preserve">
+    <value>가차 확률을 해석할 수 없습니다</value>
+  </data>
+	<data name="ErrorPoolSelect" xml:space="preserve">
+    <value>확률이 설정된 가차를 선택하거나 개발자에게 문의하세요</value>
+  </data>
+	<data name="ErrorPityWithZero" xml:space="preserve">
+    <value>천장을 사용할 경우 ★3 등장 수는 최소 1 이상입니다 (천장 포함)</value>
+  </data>
+	<data name="FormatZ" xml:space="preserve">
+    <value>Z 값: {0:F3}</value>
+  </data>
+	<data name="FormatGrade" xml:space="preserve">
+    <value>등급: {0}</value>
+  </data>
+	<data name="FormatPercentile" xml:space="preserve">
+    <value>상위 {0:F1}% 의 선생님</value>
+  </data>
+	<data name="FormatCI" xml:space="preserve">
+    <value>95% CI: [{0:F2}, {1:F2}]</value>
+  </data>
+	<data name="FormatSignificance" xml:space="preserve">
+    <value>유의성: {0}</value>
+  </data>
+</root>

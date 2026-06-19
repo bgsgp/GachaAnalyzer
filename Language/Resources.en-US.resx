@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="FormTitle" xml:space="preserve">
+    <value>Blue Archive · Gacha Luck Analyzer</value>
+  </data>
+	<data name="LabelPulls" xml:space="preserve">
+    <value>Total Pulls:</value>
+  </data>
+	<data name="LabelC3" xml:space="preserve">
+    <value>3★ Count:</value>
+  </data>
+	<data name="LabelPool" xml:space="preserve">
+    <value>Banner:</value>
+  </data>
+	<data name="ComboNormal" xml:space="preserve">
+    <value>Normal (3%)</value>
+  </data>
+	<data name="ComboFES" xml:space="preserve">
+    <value>FES (6%)</value>
+  </data>
+	<data name="ComboPickup" xml:space="preserve">
+    <value>Pick Up (0.7%)</value>
+  </data>
+	<data name="CheckPity" xml:space="preserve">
+    <value>Used spark (deduct 1 guaranteed 3★)</value>
+  </data>
+	<data name="ButtonCalc" xml:space="preserve">
+    <value>🔮 Analyze Luck</value>
+  </data>
+	<data name="GroupResult" xml:space="preserve">
+    <value>📊 Results</value>
+  </data>
+	<data name="LabelZ" xml:space="preserve">
+    <value>Z-Score:</value>
+  </data>
+	<data name="LabelGrade" xml:space="preserve">
+    <value>Grade:</value>
+  </data>
+	<data name="LabelPercentile" xml:space="preserve">
+    <value>Better than:</value>
+  </data>
+	<data name="LabelCI" xml:space="preserve">
+    <value>95% CI:</value>
+  </data>
+	<data name="LabelSignificance" xml:space="preserve">
+    <value>Significance:</value>
+  </data>
+	<data name="ErrorInvalidPulls" xml:space="preserve">
+    <value>Please enter valid total pulls</value>
+  </data>
+	<data name="ErrorInvalidC3" xml:space="preserve">
+    <value>Please enter valid 3★ count</value>
+  </data>
+	<data name="ErrorPoolParse" xml:space="preserve">
+    <value>Cannot parse banner probability</value>
+  </data>
+	<data name="ErrorPoolSelect" xml:space="preserve">
+    <value>Please select a banner with probability</value>
+  </data>
+	<data name="ErrorPityWithZero" xml:space="preserve">
+    <value>If sparked, 3★ count must be at least 1</value>
+  </data>
+	<data name="FormatZ" xml:space="preserve">
+    <value>Z-Score: {0:F3}</value>
+  </data>
+	<data name="FormatGrade" xml:space="preserve">
+    <value>Grade: {0}</value>
+  </data>
+	<data name="FormatPercentile" xml:space="preserve">
+    <value>Better than {0:F1}% of sensei</value>
+  </data>
+	<data name="FormatCI" xml:space="preserve">
+    <value>95% CI: [{0:F2}, {1:F2}]</value>
+  </data>
+	<data name="FormatSignificance" xml:space="preserve">
+    <value>Significance: {0}</value>
+  </data>
+</root>
